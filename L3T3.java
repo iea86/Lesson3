@@ -18,7 +18,7 @@ public class L3T3 {
 				System.out.print("    x       f\n");
 				System.out.print("-------------------------\n");
             
-				for (r=1; r>=a && r<=b; r=r + h) {
+				for (r=1; r<=b; r=r + h) {
 				
 					f = 2 * Math.tan(r/2) +1;
 					System.out.print("    " + r  + "      "+f+"\n");
